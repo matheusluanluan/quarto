@@ -1,5 +1,5 @@
 :root {
-    --text-color: #DBE4EF;
+    --text-color: #dbe4ef;
     --card-front-color: #1fa366;
     --card-back-color: #edfd06;
 }
@@ -64,7 +64,7 @@ body {
 }
 
 .cartao.active .cartao__conteudo {
-    transform: rotateY(180deg);
+    transform: rotatex(180deg);
 }
 
 .cartao__conteudo__pergunta,
@@ -77,7 +77,7 @@ body {
 }
 
 .cartao__conteudo__resposta {
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
     background-color: rgba(0, 244, 191, 0.2);
     border: 4px solid var(--card-back-color);
 }
